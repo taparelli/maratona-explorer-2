@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  html{
+    /*variaveis*/
+    --bg-color: 
+    --text-color:
+  
+  }
+  body.dark{
+    --bg-color:#00082F ;
+    --text-color: #FFFF ;
+  
+  }
+  
+  body {
+    background: var(--bg-color);
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+  
+  }
+  .container{
+    text-align: center;
+    width: 300px;
+    margin: 60px auto;
+    padding: 0px 40px ;
+  
+  }
+  img{
+    width: 100%;
+  }
+  img.avatar{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 3.7px;
+    border: #4263EB 4px solid ;
+  }
+  h1{
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 28px;
+    
+    
+  }
+  .username{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+      opacity: 0.8;
+    font-size: 15px;
+  }
+  ul{
+    list-style: none;
+    margin: 48px 0px;
+  }
+  ul li a{
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4363EB;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+    margin-bottom: 16px;
+    border-radius: 6px;
+    
+    transition: background 400ms;
+  
+  }
+  ul a:hover{
+    background: #364FC7;
+  }
+  footer{
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.6;
+    transition: 400ms;
+  }
+  footer:hover{
+    opacity: 1;
+  }
+  footer a{
+    color: var(--texte-color);
+  }
